@@ -1,21 +1,20 @@
 /* permanent marker font for all what you're seeing text */
-html {
-  font-family: "Permanent Marker";
-}
-
 h1 {
   font-family: "Permanent Marker";
 }
 
 p {
-  font-family: "Premanent Marker";
-}
-
-body {
   font-family: "Permanent Marker";
-  font-size: 18px;
+  font-size: 17px;
+  font-weight: 200;
 }
 
 .input-group {
   max-width: 45%;
 }
+
+.label {
+  left: 50%;
+}
+
+/*BOOTSRAP HERE*/
