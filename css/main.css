@@ -1,6 +1,14 @@
 /* permanent marker font for all what you're seeing text */
+html {
+  font-family: "Permanent Marker";
+}
+
 h1 {
   font-family: "Permanent Marker";
+}
+
+p {
+  font-family: "Premanent Marker";
 }
 
 body {

@@ -1,61 +1,63 @@
-var html = $('html')
-
 $(".game-start-btn").click(function(){
-  html.load("game_start.html");
+  $('html').load("game_start.html");
 });
 
 $(".deckhand-mess").click(function(){
-  html.load("/stages/deckhand_mess.html");
+  $('html').load("deckhand_mess.html");
 });
 
 $(".hold").click(function(){
-  html.load("/stages/hold.html");
+  $('html').load("hold.html");
 });
 
 $(".kitchen").click(function(){
-  html.load("/stages/kitchen.html");
+  $('html').load("kitchen.html");
 });
 
 $(".mid-ship").click(function(){
-  html.load("/stages/mid_ship.html");
+  $('html').load("mid_ship.html");
 });
 
 $(".engine-room").click(function(){
-  html.load("/stages/engine_room.html");
+  $('html').load("engine_room.html");
 });
 
 $(".gunroom").click(function(){
-  html.load("/stages/gunroom.html");
+  $('html').load("gunroom.html");
 });
 
 $(".boiler-room").click(function(){
-  html.load("/stages/boiler_room.html");
+  $('html').load("boiler_room.html");
 });
 
 $(".ammo-room").click(function(){
-  html.load("/stages/ammo_room.html");
+  $('html').load("ammo_room.html");
 });
 
 $(".captains-quarters").click(function(){
-  html.load("/stages/captains_quarters.html");
+  $('html').load("captains_quarters.html");
 });
 
 $(".deck").click(function(){
-  html.load("/stages/deck.html");
+  $('html').load("deck.html");
 });
 
 $(".shark-death").click(function(){
-  html.load("/stages/shark_death.html");
+  $('html').load("shark_death.html");
 });
 
 $(".end-win").click(function(){
-  html.load("/cyoa/end_win.html");
+  $('html').load("end_win.html");
 });
 
-$(".secret-btn-1").click(function(){
-  html.load("/stages/hold.html");
+$(".secret-btn-one").click(function(){
+  $('html').load("hold.html");
 });
 
-(".secret-btn-2").click(function(){
-  html.load("/stages/end_win.html");
+$(".secret-btn-two").click(function(){
+  $('html').load("end_win.html");
+});
+
+$(".play-again").click(function(){
+  $('html').load("index.html");
 });
