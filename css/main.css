@@ -1,0 +1,13 @@
+/* permanent marker font for all what you're seeing text */
+h1 {
+  font-family: "Permanent Marker";
+}
+
+body {
+  font-family: "Permanent Marker";
+  font-size: 18px;
+}
+
+.input-group {
+  max-width: 45%;
+}
