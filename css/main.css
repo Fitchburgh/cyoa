@@ -1,12 +1,15 @@
 /* permanent marker font for all what you're seeing text */
 h1 {
   font-family: "Permanent Marker";
+  max-width: 60%;
 }
 
 p {
   font-family: "Permanent Marker";
   font-size: 17px;
   font-weight: 200;
+  position: relative;
+  max-width: 60%;
 }
 
 .input-group {
@@ -14,7 +17,7 @@ p {
 }
 
 .label {
-  left: 50%;
+  float: inherit;;
 }
 
 /*BOOTSRAP HERE*/
